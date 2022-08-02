@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/5-Minuten-Fragen/static/css/main.f15082ed.css",
+    "main.js": "/5-Minuten-Fragen/static/js/main.6bb6a7e3.js",
+    "index.html": "/5-Minuten-Fragen/index.html",
+    "main.f15082ed.css.map": "/5-Minuten-Fragen/static/css/main.f15082ed.css.map",
+    "main.6bb6a7e3.js.map": "/5-Minuten-Fragen/static/js/main.6bb6a7e3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f15082ed.css",
+    "static/js/main.6bb6a7e3.js"
+  ]
+}
