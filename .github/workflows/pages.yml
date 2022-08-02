@@ -38,6 +38,8 @@ jobs:
         run: npm ci
       - name: Run Build
         run: CI=false npm run build
+      - name: Create Fallback Page
+        run: cp build/index.html build/404.html
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
