@@ -1,23 +1,38 @@
 import Header from "../components/header"
-import Next from "../components/next"
-import {useEffect, useState} from 'react'
+import { useEffect, useState } from 'react'
 import data from './Fragen.json'
 
 function Frage() {
 
     const [fragen, setFragen] = useState([]);
+    const [buttonClick, setButtonClick] = useState(0);
+    const [displayText, setDisplayText] = useState('');
 
     function random() {
-        var item = Math.floor(Math.random() * data.length)
-
+        const item = Math.floor(Math.random() * data.length)
         return item
     }
-    //var item =  Math.floor(Math.random() * data.length)
+
+    useEffect(() => {
+        const fullText = fragen.frage;
+        let currentLength = 0;
+        const interval = setInterval(() => {
+            currentLength++;
+            setDisplayText(fullText.substring(0, currentLength));
+            if (currentLength === fullText.length) {
+                clearInterval(interval);
+            }
+        }, 50);
+    }, [fragen]);
+
+    function handleNextQuestionClick() {
+        setButtonClick(buttonClick + 1);
+        setDisplayText('');
+    }
 
     useEffect(() => {
         setFragen(data[random()])
-    })
-
+    }, [buttonClick])
 
     return (
         <>
@@ -27,10 +42,14 @@ function Frage() {
             <Header></Header>
             <div className="container">
                 <div className="frage-container">
-                    <h1 className="frage">{fragen.frage}</h1>
+                    <h1 className="frage">{displayText}</h1>
                 </div>
             </div>
-            <Next></Next>
+            <div className="container" onClick={handleNextQuestionClick}>
+                <div className="next-button">
+                    <h1 className="next-quest">Nächste Frage</h1>
+                </div>
+            </div>
         </>
     )
 }

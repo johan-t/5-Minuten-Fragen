@@ -1,308 +1,920 @@
 [
-    {"frage": "Mit welcher Person würdest du gern für einen Tag tauschen?"},
-    {"frage": "Was machst du lieber allein?"},
-    {"frage": "Wann hast du das letzte mal geweint?"},
-    {"frage": "Was wäre 1880 dein Beruf?"},
-    {"frage": "Von welcher deiner Eigenschaften sind Leute genervt?"},
-    {"frage": "Was würdest du gern können?"},
-    {"frage": "Was war deine letzte gute Tat"},
-    {"frage": "Hast du mal etwas sehr dummes erfunden?"},
-    {"frage": "Was hatte Rückblickend einen sehr großen Einfluss auf dein Leben?"},
-    {"frage": "Welchen Klamottenstil würdest du verbieten?"},
-    {"frage": "Wenn Geld keine Rolle spielen würde, was würdest du machen?"},
-    {"frage": "Was war dir zuletz peinlich?"},
-    {"frage": "Bei welchen Themen fragst du deine Eltern?"},
-    {"frage": "Zu welchem Album hast du ein besonderes Verhältnis?"},
-    {"frage": "Was ist das schnöste Kompliment was man dir machen kann?"},
-    {"frage": "Welche Eigenschaft hat sich fundamental an dir geändert?"},
-    {"frage": "Wie willst du sein bist es aber nicht?"},
-    {"frage": "Was würdest du an deiner Erziehung ändern?"},
-    {"frage": "Welche Momente machen dich Glücklich"},
-    {"frage": "Bei welchem Historischem Moment wärst du gern dabei gewesen?"},
-    {"frage": "Was ist das asozialste was du je auf einer Party gemacht hast?"},
-    {"frage": "Womit hättest du gern früher begonnen?"},
-    {"frage": "Wo siehtst du dich in 5 Jahren?"},
-    {"frage": "Was ist die gefährlichste Situation in der du je warst?"},
-    {"frage": "Welches Land käme für dich zum auswandern infrage?"},
-    {"frage": "Welchen Film hast du am häufigsten geguckt?"},
-    {"frage": "Welches Land interessiert dich überhaupt nicht?"},
-    {"frage": "Was war dein komischster Traum?"},
-    {"frage": "Wovon hast du gar keine Ahnung?"},
-    {"frage": "Was sind deine Schwächen?"},
-    {"frage": "Wann hast du dich das letzte mal schlecht verhalten?"},
-    {"frage": "Wie hübsch bist du gerade auf einer Skala von 1-10?"},
-    {"frage": "Was wäre deine Henkersmahlzeit?"},
-    {"frage": "Wann hast du dich das letzte mal schlecht verhalten?"},
-    {"frage": "Was macht dich Melancholisch?"},
-    {"frage": "Mit wem würdest du am liebsten ein Abendbro essen?"},
-    {"frage": "Für was wärst du am liebsten berühmt?"},
-    {"frage": "Wie sieht dein perfekter Tag aus?"},
-    {"frage": "Wofür bist du am dankbarsten in deinem Leben?"},
-    {"frage": "Erzähl deine Lebensgeschichte"},
-    {"frage": "Was würdest du gern über deine Zukunft wissen?"},
-    {"frage": "Was wolltest du schon immer gern machen?"},
-    {"frage": "Was ist dein bisher größer Erfolg?"},
-    {"frage": "Was ist für dich in einer Freundschaft das wichtigste?"},
-    {"frage": "Was ist deine schönste Erinnerung?"},
-    {"frage": "Was ist deine schlimmste Erfahrung?"},
-    {"frage": "Wenn du in einem Jahr sterben würdest, was würdest du ändern?"},
-    {"frage": "Was für eine Bedeutung hat Freundschaft in deinem Leben"},
-    {"frage": "Wie würdest du Liebe und Zuneigung in deinem Leben einordnen?"},
-    {"frage": "Glaubst du deine Kindheit war Glücklich?"},
-    {"frage": "Wenn du mit deinem Gegenüber engbefreundet wärst, was wäre wichtig zu wissen?"},
-    {"frage": "Was magst du an deinem Gegenüber?"},
-    {"frage": "Wann hast du das letzte mal vor einer anderen Person geweint?"},
-    {"frage": "Wie beschreibst du die Beziehung zwischen dir und deinem Körper?"},
-    {"frage": "Was wünscht du dir für deine Zukunft?"},
-    {"frage": "Fühlst du dich frei? Wie fühlst du dich eingeschränkt?"},
-    {"frage": "Welchen Stellenwert hat Familie für dich?"},
-    {"frage": "Wie zufrieden bist du mit deinem Leben?"},
-    {"frage": "Woran möchtest du an dir arbeiten?"},
-    {"frage": "Welche Adjektive beschreiben deinen Charakter am besten?"},
-    {"frage": "Was unterscheidet dich von den meisten Menschen deiner Generation?"},
-    {"frage": "Wie geht es dir zurzeit?"},
-    {"frage": "Wovor hast du Angst?"},
-    {"frage": "Wie beschreibst du deine Erziehung?"},
-    {"frage": "Worauf bist du stolz?"},
-    {"frage": "Was macht für dich eine gute Freundschaft aus?"},
-    {"frage": "Was ist deine größte Schwäche?"},
-    {"frage": "Welchen Titel würdest du deinem aktuellen Lebensabschnitt geben?"},
-    {"frage": "In welchen Momenten bist du am Glücklichsten?"},
-    {"frage": "Welche Rolle spielt Religion und Spiritualität in deinem Leben?"},
-    {"frage": "Inwiefern hast du dich in den letzten Jahren  verändert?"},
-    {"frage": "Welche Entscheidung würdest du heute anders fallen?"},
-    {"frage": "Worauf könntest du nicht verzichten?"},
-    {"frage": "Welches Verhalten anderer Menschen macht dich wütend?"},
-    {"frage": "Welchen Wunsch möchtest du dir bald erfüllen?"},
-    {"frage": "Was liebst du an deinem Leben?"},
-    {"frage": "Wer und was inspiriert dich?"},
-    {"frage": "Was schätzt du am meisten an dir?"},
-    {"frage": "Was war die beste Entscheidung deines Lebens?"},
-    {"frage": "Wie hast du deine Kindheit erlebt?"},
-    {"frage": "Worüber machst du dir zurzeit Sorgen?"},
-    {"frage": "Inwiefern beeinflusst dein Beruf deine Psyche?"},
-    {"frage": "Welche Adjektive beschreiben meinen Charakter am besten?"},
-    {"frage": "Inwiefern habe ich mich in den letzten Jahren verändert?"},
-    {"frage": "Was denkst du würde mir gut tun?"},
-    {"frage": "An welcher meiner Eigenschaften könnte ich arbeiten?"},
-    {"frage": "Wovor, glaubst du, habe ich angst?"},
-    {"frage": "Welches Buch kannst du mir empfehlen?"},
-    {"frage": "Was scheine ich selbst nicht über zu realisieren?"},
-    {"frage": "Was denkst du über meine Freundschaften?"},
-    {"frage": "was nervt dich an mir?"},
-    {"frage": "Wie denkst du war meine Kindheit?"},
-    {"frage": "Inwiefern beeinflusst mich meine Erziehung?"},
-    {"frage": "Welche Erlebnisse haben mich am meisten geprägt?"},
-    {"frage": "Mit welchen Themen setze ich mich ungern auseinander?"},
-    {"frage": "Welche Person würdest du mir gern vorstellen?"},
-    {"frage": "Was schätzt du am meisten an mir?"},
-    {"frage": "Was kann ich besonders gut?"},
-    {"frage": "Was wünscht du mir für meine Zukunft?"},
-    {"frage": "Welche Entscheidung hätte ich aus deiner Sicht anders treffen sollen?"},
-    {"frage": "Welche Rolle spielt mein Beruf in meinem Leben?"},
-    {"frage": "Welchen Titel würdest du meinem aktuellen Lebensabschnitt geben?"},
-    {"frage": "Welchen Stellenwert hat Familie in meinem Leben?"},
-    {"frage": "Was findest du äußerlich besonders an mir schön?"},
-    {"frage": "Worauf kann ich stolz sein?"},
-    {"frage": "Was hebt mich von anderen ab?"},
-    {"frage": "Wie frei bin ich? Was schränkt mich ein?"},
-    {"frage": "Welche Rolle spielt Geld in meinem Leben?"},
-    {"frage": "Was sagt mein Kleidungsstil über mich aus?"},
-    {"frage": "Welchen Eindruck mache ich auf dich zurzeit?"},
-    {"frage": "Wann wirke ich am Glücklichsten?"},
-    {"frage": "Welche meiner Entscheidungen bewunderst du?"},
-    {"frage": "Mit welcher meiner Verhaltensweisen verletze ich dich?"},
-    {"frage": "Welche Frage würdest du mir gern stellen?"},
-    {"frage": "Gibt es etwas worum du mich beneidest?"},
-    {"frage": "Was würdest du gern mit mir zusammen erleben?"},
-    {"frage": "Was wünscht du dir für unsere Zukunft?"},
-    {"frage": "Welche unserer Erlebnisse sind dir besonders in Erinnerung geblieben?"},
-    {"frage": "Worüber sprichst du ungern mit mir?"},
-    {"frage": "Bei welchen Schwierigkeiten fragst du mich gern um Rat?"},
-    {"frage": "Welche Rolle spiele ich in deinem Leben?"},
-    {"frage": "Was belastet unsere Beziehung?"},
-    {"frage": "Wofür können wir uns gemeinsam begeistern?"},
-    {"frage": "Was nervt dich an unserer Beziehung?"},
-    {"frage": "Was hast du von mir gelernt?"},
-    {"frage": "Was wolltest du mir schon immer mal sagen?"},
-    {"frage": "Inwiefern hat sich unsere Beziehung verändert?"},
-    {"frage": "Wie erlebst du unsere Kommunikation?"},
-    {"frage": "Wie beschreibst du unsere Beziehung?"},
-    {"frage": "Inwiefern bereichere ich dein Leben?"},
-    {"frage": "welche Rolle nehmen wir beide in unserer Beziehung zueinander ein?"},
-    {"frage": "Was ist die größte Stärke und Schwäche unserer Beziehung?"},
-    {"frage": "Inwiefern inspiriere ich dich?"},
-    {"frage": "Worüber sprichst du gern mit mir?"},
-    {"frage": "Was ist dir von unserer ersten Begegnung in Erinnerung geblieben?"},
-    {"frage": "Was macht unserer Verhätnis besonders?"},
-    {"frage": "Was machst du ungern mit mir zusammen?"},
-    {"frage": "Wann haben wir am meisten Spaß zusammen?"},
-    {"frage": "Wie beschreibst du mich anderen gegenüber?"},
-    {"frage": "Welchen Titel würdest du diesem Kapitel unserer Beziehung geben?"},
-    {"frage": "Wobei könnte ich dir mehr helfen?"},
-    {"frage": "Was könnte ich öfter für dich tun?"},
-    {"frage": "Who has been your best leader? Why?"},
-    {"frage": "What needs of yours do you often tend to ignore?"},
-    {"frage": "What are the 3 most important things you look for in a relationship?"},
-    {"frage": "What self-destructive patterns do you keep repeating?"},
-    {"frage": "What do you like to do for fun?"},
-    {"frage": "What is a healthy relationship for you?"},
-    {"frage": "When was the last time you learned someting new?"},
-    {"frage": "Do you have unhealed trauma from your past?"},
-    {"frage": "Are you happy in your relationship? Why?"},
-    {"frage": "Are you happy with your Life? Why?"},
-    {"frage": "Are you happy with your career?"},
-    {"frage": "When was the last time you gave a compliment?"},
-    {"frage": "what do you need to let go of?"},
-    {"frage": "How often do you give yourself alone time?"},
-    {"frage": "What do you base your self worth on?"},
-    {"frage": "What are your favourite self-care activities?"},
-    {"frage": "What is one of your big regrets?"},
-    {"frage": "What do you love to do?"},
-    {"frage": "In what areas do you struggle with setting boundaries?"},
-    {"frage": "What childhood experience is still hauting you?"},
-    {"frage": "How are you a good friend?"},
-    {"frage": "Do you take care of yourself?"},
-    {"frage": "Do you have toxic people in your life?"},
-    {"frage": "What would you like more of?"},
-    {"frage": "Which of your needs do you struggle with expressing to others?"},
-    {"frage": "What are some stress symptoms to you?"},
-    {"frage": "What is the most important to you in life?"},
-    {"frage": "What do you do to be present in the now?"},
-    {"frage": "What was the best gift you have ever receaved?"},
-    {"frage": "What unresolved conflicts do you have in your life?"},
-    {"frage": "Do you currently hold a grudge against someone?"},
-    {"frage": "What are your favorite ways of recharching your batteries?"},
-    {"frage": "Whom can you truly count on in your Life?"},
-    {"frage": "When do you feel the most connected to yourself?"},
-    {"frage": "What qualities do you look for in a good friend?"},
-    {"frage": "What do you critize yourself for?"},
-    {"frage": "What does your ideal home look like?"},
-    {"frage": "What good things happend to you this week?"},
-    {"frage": "What are your addictions?"},
-    {"frage": "What are some bad habbits of yours?"},
-    {"frage": "What do you miss from your partner?"},
-    {"frage": "What 'failures' turned out to be a success?"},
-    {"frage": "When are times you become overcontrolling?"},
-    {"frage": "What traits do you have from your parents?"},
-    {"frage": "What are your passions?"},
-    {"frage": "What is the difference between 'living' and 'existing' to you?"},
-    {"frage": "What are the hardest things you have ever done?"},
-    {"frage": "What do you miss about being a child?"},
-    {"frage": "What are 3 highlights in your life?"},
-    {"frage": "What do you spend to much money on?"},
-    {"frage": "What company do you admire? Why?"},
-    {"frage": "What 3 things make you angry?"},
-    {"frage": "Whom do you eny?"},
-    {"frage": "How would you describe your ideal partner in 5 words?"},
-    {"frage": "What 3 things do you love about your home?"},
-    {"frage": "If your life was a movie, what would be its title?"},
-    {"frage": "What lifeadvice would you give people on your deathbed?"},
-    {"frage": "How do you calm yourself when you get upset?"},
-    {"frage": "Would you consider yourself being an 'empath'?"},
-    {"frage": "Do you feel seen, heard loved and appreciated by your partner?"},
-    {"frage": "When was a time you wronged someone and did not apologize for it?"},
-    {"frage": "What hardship from your past, are you grateful for having experience today?"},
-    {"frage": "Whom do you feel loved by?"},
-    {"frage": "What is the best advice you have ever gotten?"},
-    {"frage": "How do you feel about being alone?"},
-    {"frage": "What are three things you love about yourself?"},
-    {"frage": "What new skills did you learn last year?"},
-    {"frage": "What emotions do you have right now in this moment?"},
-    {"frage": "What is your favourite topic to talk about?"},
-    {"frage": "What is the most valuable skill?"},
-    {"frage": "What is the first thing you notice about a person?"},
-    {"frage": "What habit change would improve your life quality?"},
-    {"frage": "What goals do you have for next year?"},
-    {"frage": "What are 3 long-term goals of yours?"},
-    {"frage": "What do you love most about your career?"},
-    {"frage": "What fear has the biggest influence on your life?"},
-    {"frage": "Do you tend to want to 'fix' other people?"},
-    {"frage": "When was the last time you followed your gut feeling?"},
-    {"frage": "When was a time fear of failure stopped you from doing something?"},
-    {"frage": "In what ways can you experience intimacy in relations?"},
-    {"frage": "When was a time you held your ground against peer pressure?"},
-    {"frage": "What is one of your happiest childhood memories?"},
-    {"frage": "Doing what calms you?"},
-    {"frage": "When was the last time you asked for help?"},
-    {"frage": "In what areas of life do you feel successful?"},
-    {"frage": "Do you like where you live?"},
-    {"frage": "Doing what clears your mind?"},
-    {"frage": "What do you imagine yourself doing 10 years from now?"},
-    {"frage": "Whom in your life, do you not spend as mich time with as you would like?"},
-    {"frage": "What small act of kindness will you never forget?"},
-    {"frage": "How are you pursuing your dreams right now?"},
-    {"frage": "What is your favourite smell and sound?"},
-    {"frage": "How do you handle conflicts?"},
-    {"frage": "What qualities do you admire most about your parents?"},
-    {"frage": "What makes life meaningful to you?"},
-    {"frage": "If you could change one thing about your life, what would it be?"},
-    {"frage": "What small gestures from your partner do you love?"},
-    {"frage": "What do you enjoy doing in your free time?"},
-    {"frage": "What small gesture from you does your partner love?"},
-    {"frage": "How do you check in with yourself during the day?"},
-    {"frage": "How do you treat yourself when you make an error?"},
-    {"frage": "Doing what, makes you losse track of time?"},
-    {"frage": "How do you maintain your independence in a relationship?"},
-    {"frage": "What are some gestures that make you feel loved?"},
-    {"frage": "Are you doing the things you want to do in your life?"},
-    {"frage": "What energizes you with other people?"},
-    {"frage": "What drains your energy with other people?"},
-    {"frage": "When do you feel most alive?"},
-    {"frage": "What motivates you? What demotives you?"},
-    {"frage": "what feels hard in your life right now?"},
-    {"frage": "What unhealthy habits do you use to reduce stress?"},
-    {"frage": "When was the last time you did something that took you of of your comfort zone?"},
-    {"frage": "How much time do you spend listening vs talking in relations?"},
-    {"frage": "What decisions are you currently postponing? Why?"},
-    {"frage": "If you died tomorrow how would you be remembered?"},
-    {"frage": "If you had to choose another carreer what would it be?"},
-    {"frage": "In what ways are you contributing to make the world a better place?"},
-    {"frage": "What are your love languages? How do you express your love?"},
-    {"frage": "What do you love and dislike about your work?"},
-    {"frage": "Do you look forword to go to work in the morning?"},
-    {"frage": "What is one thing that can quickly make your day better?"},
-    {"frage": "What makes love last?"},
-    {"frage": "How do you feel that you and your partner grow together?"},
-    {"frage": "How are you a person of integrity?"},
-    {"frage": "Whom in your life is great at giving empathic warmth and enthusiasm?"},
-    {"frage": "Which of your personality traits are you most proud of?"},
-    {"frage": "Do you suffer from imposter Syndrome?"},
-    {"frage": "What measures do you take to have a good work/life balance?"},
-    {"frage": "If you could build a company what would it sell?"},
-    {"frage": "How do you define 'quality time'?"},
-    {"frage": "What chores do you enjoy doing?"},
-    {"frage": "Does your social status level matter to you?"},
-    {"frage": "What are some sustainable choices you priotize?"},
-    {"frage": "What do you create?"},
-    {"frage": "Who has made a big imoact in your life?"},
-    {"frage": "How do you take good care of yourself?"},
-    {"frage": "What are some things you are grateful for?"},
-    {"frage": "What are red flags you have regretted ignoring?"},
-    {"frage": "What are you good at?"},
-    {"frage": "What stressors do you currently have in your life?"},
-    {"frage": "What is something that currently frustrates you?"},
-    {"frage": "What is something that currently worries you?"},
-    {"frage": "Doing what with other people gives you energy?"},
-    {"frage": "Doing what is your creative outlet?"},
-    {"frage": "What is a big insecurity of yours?"},
-    {"frage": "Are you sexually fulfilled?"},
-    {"frage": "Who in your life do you feel uncomfortable being with?"},
-    {"frage": "What are great ways to spend time with your family?"},
-    {"frage": "What have loss of loved ones made you relize?"},
-    {"frage": "If you could live anywhere, where would it be?"},
-    {"frage": "What are you most proud of in the last years?"},
-    {"frage": "What career advice would you give to your younger self?"},
-    {"frage": "What relationship advice would you give to your younger self?"},
-    {"frage": "Which relations in your life feel one-sided?"},
-    {"frage": "What is your most prized possession and why?"},
-    {"frage": "What life lesson have you had to learn the hard way?"},
-    {"frage": "What do you regret not doing in the last year?"},
-    {"frage": "Do you have any friends you would consider family?"},
-    {"frage": "What is one of the best decisions you have ever made?"},
-    {"frage": "What bad habits would you like to drop?"},
-    {"frage": "What is your favourite family tradition?"},
-    {"frage": "What is one of the worst decisions you have ever made?"},
-    {"frage": "What measures do you take to have a positive attitude?"},
-    {"frage": "What makes a home feel like a home to you?"}  
+    {
+        "frage": "Mit welcher Person würdest du gern für einen Tag tauschen?"
+    },
+    {
+        "frage": "Was machst du lieber allein?"
+    },
+    {
+        "frage": "Wann hast du das letzte mal geweint?"
+    },
+    {
+        "frage": "Was wäre 1880 dein Beruf?"
+    },
+    {
+        "frage": "Von welcher deiner Eigenschaften sind Leute genervt?"
+    },
+    {
+        "frage": "Was würdest du gern können?"
+    },
+    {
+        "frage": "Was war deine letzte gute Tat"
+    },
+    {
+        "frage": "Hast du mal etwas sehr dummes erfunden?"
+    },
+    {
+        "frage": "Was hatte Rückblickend einen sehr großen Einfluss auf dein Leben?"
+    },
+    {
+        "frage": "Welchen Klamottenstil würdest du verbieten?"
+    },
+    {
+        "frage": "Wenn Geld keine Rolle spielen würde, was würdest du machen?"
+    },
+    {
+        "frage": "Was war dir zuletz peinlich?"
+    },
+    {
+        "frage": "Bei welchen Themen fragst du deine Eltern?"
+    },
+    {
+        "frage": "Zu welchem Album hast du ein besonderes Verhältnis?"
+    },
+    {
+        "frage": "Was ist das schnöste Kompliment was man dir machen kann?"
+    },
+    {
+        "frage": "Welche Eigenschaft hat sich fundamental an dir geändert?"
+    },
+    {
+        "frage": "Wie willst du sein bist es aber nicht?"
+    },
+    {
+        "frage": "Was würdest du an deiner Erziehung ändern?"
+    },
+    {
+        "frage": "Welche Momente machen dich Glücklich"
+    },
+    {
+        "frage": "Bei welchem Historischem Moment wärst du gern dabei gewesen?"
+    },
+    {
+        "frage": "Was ist das asozialste was du je auf einer Party gemacht hast?"
+    },
+    {
+        "frage": "Womit hättest du gern früher begonnen?"
+    },
+    {
+        "frage": "Wo siehtst du dich in 5 Jahren?"
+    },
+    {
+        "frage": "Was ist die gefährlichste Situation in der du je warst?"
+    },
+    {
+        "frage": "Welches Land käme für dich zum auswandern infrage?"
+    },
+    {
+        "frage": "Welchen Film hast du am häufigsten geguckt?"
+    },
+    {
+        "frage": "Welches Land interessiert dich überhaupt nicht?"
+    },
+    {
+        "frage": "Was war dein komischster Traum?"
+    },
+    {
+        "frage": "Wovon hast du gar keine Ahnung?"
+    },
+    {
+        "frage": "Was sind deine Schwächen?"
+    },
+    {
+        "frage": "Wann hast du dich das letzte mal schlecht verhalten?"
+    },
+    {
+        "frage": "Wie hübsch bist du gerade auf einer Skala von 1-10?"
+    },
+    {
+        "frage": "Was wäre deine Henkersmahlzeit?"
+    },
+    {
+        "frage": "Wann hast du dich das letzte mal schlecht verhalten?"
+    },
+    {
+        "frage": "Was macht dich Melancholisch?"
+    },
+    {
+        "frage": "Mit wem würdest du am liebsten ein Abendbro essen?"
+    },
+    {
+        "frage": "Für was wärst du am liebsten berühmt?"
+    },
+    {
+        "frage": "Wie sieht dein perfekter Tag aus?"
+    },
+    {
+        "frage": "Wofür bist du am dankbarsten in deinem Leben?"
+    },
+    {
+        "frage": "Erzähl deine Lebensgeschichte"
+    },
+    {
+        "frage": "Was würdest du gern über deine Zukunft wissen?"
+    },
+    {
+        "frage": "Was wolltest du schon immer gern machen?"
+    },
+    {
+        "frage": "Was ist dein bisher größer Erfolg?"
+    },
+    {
+        "frage": "Was ist für dich in einer Freundschaft das wichtigste?"
+    },
+    {
+        "frage": "Was ist deine schönste Erinnerung?"
+    },
+    {
+        "frage": "Was ist deine schlimmste Erfahrung?"
+    },
+    {
+        "frage": "Wenn du in einem Jahr sterben würdest, was würdest du ändern?"
+    },
+    {
+        "frage": "Was für eine Bedeutung hat Freundschaft in deinem Leben"
+    },
+    {
+        "frage": "Wie würdest du Liebe und Zuneigung in deinem Leben einordnen?"
+    },
+    {
+        "frage": "Glaubst du deine Kindheit war Glücklich?"
+    },
+    {
+        "frage": "Wenn du mit deinem Gegenüber engbefreundet wärst, was wäre wichtig zu wissen?"
+    },
+    {
+        "frage": "Was magst du an deinem Gegenüber?"
+    },
+    {
+        "frage": "Wann hast du das letzte mal vor einer anderen Person geweint?"
+    },
+    {
+        "frage": "Wie beschreibst du die Beziehung zwischen dir und deinem Körper?"
+    },
+    {
+        "frage": "Was wünscht du dir für deine Zukunft?"
+    },
+    {
+        "frage": "Fühlst du dich frei? Wie fühlst du dich eingeschränkt?"
+    },
+    {
+        "frage": "Welchen Stellenwert hat Familie für dich?"
+    },
+    {
+        "frage": "Wie zufrieden bist du mit deinem Leben?"
+    },
+    {
+        "frage": "Woran möchtest du an dir arbeiten?"
+    },
+    {
+        "frage": "Welche Adjektive beschreiben deinen Charakter am besten?"
+    },
+    {
+        "frage": "Was unterscheidet dich von den meisten Menschen deiner Generation?"
+    },
+    {
+        "frage": "Wie geht es dir zurzeit?"
+    },
+    {
+        "frage": "Wovor hast du Angst?"
+    },
+    {
+        "frage": "Wie beschreibst du deine Erziehung?"
+    },
+    {
+        "frage": "Worauf bist du stolz?"
+    },
+    {
+        "frage": "Was macht für dich eine gute Freundschaft aus?"
+    },
+    {
+        "frage": "Was ist deine größte Schwäche?"
+    },
+    {
+        "frage": "Welchen Titel würdest du deinem aktuellen Lebensabschnitt geben?"
+    },
+    {
+        "frage": "In welchen Momenten bist du am Glücklichsten?"
+    },
+    {
+        "frage": "Welche Rolle spielt Religion und Spiritualität in deinem Leben?"
+    },
+    {
+        "frage": "Inwiefern hast du dich in den letzten Jahren  verändert?"
+    },
+    {
+        "frage": "Welche Entscheidung würdest du heute anders fallen?"
+    },
+    {
+        "frage": "Worauf könntest du nicht verzichten?"
+    },
+    {
+        "frage": "Welches Verhalten anderer Menschen macht dich wütend?"
+    },
+    {
+        "frage": "Welchen Wunsch möchtest du dir bald erfüllen?"
+    },
+    {
+        "frage": "Was liebst du an deinem Leben?"
+    },
+    {
+        "frage": "Wer und was inspiriert dich?"
+    },
+    {
+        "frage": "Was schätzt du am meisten an dir?"
+    },
+    {
+        "frage": "Was war die beste Entscheidung deines Lebens?"
+    },
+    {
+        "frage": "Wie hast du deine Kindheit erlebt?"
+    },
+    {
+        "frage": "Worüber machst du dir zurzeit Sorgen?"
+    },
+    {
+        "frage": "Inwiefern beeinflusst dein Beruf deine Psyche?"
+    },
+    {
+        "frage": "Welche Adjektive beschreiben meinen Charakter am besten?"
+    },
+    {
+        "frage": "Inwiefern habe ich mich in den letzten Jahren verändert?"
+    },
+    {
+        "frage": "Was denkst du würde mir gut tun?"
+    },
+    {
+        "frage": "An welcher meiner Eigenschaften könnte ich arbeiten?"
+    },
+    {
+        "frage": "Wovor, glaubst du, habe ich angst?"
+    },
+    {
+        "frage": "Welches Buch kannst du mir empfehlen?"
+    },
+    {
+        "frage": "Was scheine ich selbst nicht über zu realisieren?"
+    },
+    {
+        "frage": "Was denkst du über meine Freundschaften?"
+    },
+    {
+        "frage": "was nervt dich an mir?"
+    },
+    {
+        "frage": "Wie denkst du war meine Kindheit?"
+    },
+    {
+        "frage": "Inwiefern beeinflusst mich meine Erziehung?"
+    },
+    {
+        "frage": "Welche Erlebnisse haben mich am meisten geprägt?"
+    },
+    {
+        "frage": "Mit welchen Themen setze ich mich ungern auseinander?"
+    },
+    {
+        "frage": "Welche Person würdest du mir gern vorstellen?"
+    },
+    {
+        "frage": "Was schätzt du am meisten an mir?"
+    },
+    {
+        "frage": "Was kann ich besonders gut?"
+    },
+    {
+        "frage": "Was wünscht du mir für meine Zukunft?"
+    },
+    {
+        "frage": "Welche Entscheidung hätte ich aus deiner Sicht anders treffen sollen?"
+    },
+    {
+        "frage": "Welche Rolle spielt mein Beruf in meinem Leben?"
+    },
+    {
+        "frage": "Welchen Titel würdest du meinem aktuellen Lebensabschnitt geben?"
+    },
+    {
+        "frage": "Welchen Stellenwert hat Familie in meinem Leben?"
+    },
+    {
+        "frage": "Was findest du äußerlich besonders an mir schön?"
+    },
+    {
+        "frage": "Worauf kann ich stolz sein?"
+    },
+    {
+        "frage": "Was hebt mich von anderen ab?"
+    },
+    {
+        "frage": "Wie frei bin ich? Was schränkt mich ein?"
+    },
+    {
+        "frage": "Welche Rolle spielt Geld in meinem Leben?"
+    },
+    {
+        "frage": "Was sagt mein Kleidungsstil über mich aus?"
+    },
+    {
+        "frage": "Welchen Eindruck mache ich auf dich zurzeit?"
+    },
+    {
+        "frage": "Wann wirke ich am Glücklichsten?"
+    },
+    {
+        "frage": "Welche meiner Entscheidungen bewunderst du?"
+    },
+    {
+        "frage": "Mit welcher meiner Verhaltensweisen verletze ich dich?"
+    },
+    {
+        "frage": "Welche Frage würdest du mir gern stellen?"
+    },
+    {
+        "frage": "Gibt es etwas worum du mich beneidest?"
+    },
+    {
+        "frage": "Was würdest du gern mit mir zusammen erleben?"
+    },
+    {
+        "frage": "Was wünscht du dir für unsere Zukunft?"
+    },
+    {
+        "frage": "Welche unserer Erlebnisse sind dir besonders in Erinnerung geblieben?"
+    },
+    {
+        "frage": "Worüber sprichst du ungern mit mir?"
+    },
+    {
+        "frage": "Bei welchen Schwierigkeiten fragst du mich gern um Rat?"
+    },
+    {
+        "frage": "Welche Rolle spiele ich in deinem Leben?"
+    },
+    {
+        "frage": "Was belastet unsere Beziehung?"
+    },
+    {
+        "frage": "Wofür können wir uns gemeinsam begeistern?"
+    },
+    {
+        "frage": "Was nervt dich an unserer Beziehung?"
+    },
+    {
+        "frage": "Was hast du von mir gelernt?"
+    },
+    {
+        "frage": "Was wolltest du mir schon immer mal sagen?"
+    },
+    {
+        "frage": "Inwiefern hat sich unsere Beziehung verändert?"
+    },
+    {
+        "frage": "Wie erlebst du unsere Kommunikation?"
+    },
+    {
+        "frage": "Wie beschreibst du unsere Beziehung?"
+    },
+    {
+        "frage": "Inwiefern bereichere ich dein Leben?"
+    },
+    {
+        "frage": "welche Rolle nehmen wir beide in unserer Beziehung zueinander ein?"
+    },
+    {
+        "frage": "Was ist die größte Stärke und Schwäche unserer Beziehung?"
+    },
+    {
+        "frage": "Inwiefern inspiriere ich dich?"
+    },
+    {
+        "frage": "Worüber sprichst du gern mit mir?"
+    },
+    {
+        "frage": "Was ist dir von unserer ersten Begegnung in Erinnerung geblieben?"
+    },
+    {
+        "frage": "Was macht unserer Verhätnis besonders?"
+    },
+    {
+        "frage": "Was machst du ungern mit mir zusammen?"
+    },
+    {
+        "frage": "Wann haben wir am meisten Spaß zusammen?"
+    },
+    {
+        "frage": "Wie beschreibst du mich anderen gegenüber?"
+    },
+    {
+        "frage": "Welchen Titel würdest du diesem Kapitel unserer Beziehung geben?"
+    },
+    {
+        "frage": "Wobei könnte ich dir mehr helfen?"
+    },
+    {
+        "frage": "Was könnte ich öfter für dich tun?"
+    },
+    {
+        "frage": "Who has been your best leader? Why?"
+    },
+    {
+        "frage": "What needs of yours do you often tend to ignore?"
+    },
+    {
+        "frage": "What are the 3 most important things you look for in a relationship?"
+    },
+    {
+        "frage": "What self-destructive patterns do you keep repeating?"
+    },
+    {
+        "frage": "What do you like to do for fun?"
+    },
+    {
+        "frage": "What is a healthy relationship for you?"
+    },
+    {
+        "frage": "When was the last time you learned someting new?"
+    },
+    {
+        "frage": "Do you have unhealed trauma from your past?"
+    },
+    {
+        "frage": "Are you happy in your relationship? Why?"
+    },
+    {
+        "frage": "Are you happy with your Life? Why?"
+    },
+    {
+        "frage": "Are you happy with your career?"
+    },
+    {
+        "frage": "When was the last time you gave a compliment?"
+    },
+    {
+        "frage": "what do you need to let go of?"
+    },
+    {
+        "frage": "How often do you give yourself alone time?"
+    },
+    {
+        "frage": "What do you base your self worth on?"
+    },
+    {
+        "frage": "What are your favourite self-care activities?"
+    },
+    {
+        "frage": "What is one of your big regrets?"
+    },
+    {
+        "frage": "What do you love to do?"
+    },
+    {
+        "frage": "In what areas do you struggle with setting boundaries?"
+    },
+    {
+        "frage": "What childhood experience is still hauting you?"
+    },
+    {
+        "frage": "How are you a good friend?"
+    },
+    {
+        "frage": "Do you take care of yourself?"
+    },
+    {
+        "frage": "Do you have toxic people in your life?"
+    },
+    {
+        "frage": "What would you like more of?"
+    },
+    {
+        "frage": "Which of your needs do you struggle with expressing to others?"
+    },
+    {
+        "frage": "What are some stress symptoms to you?"
+    },
+    {
+        "frage": "What is the most important to you in life?"
+    },
+    {
+        "frage": "What do you do to be present in the now?"
+    },
+    {
+        "frage": "What was the best gift you have ever receaved?"
+    },
+    {
+        "frage": "What unresolved conflicts do you have in your life?"
+    },
+    {
+        "frage": "Do you currently hold a grudge against someone?"
+    },
+    {
+        "frage": "What are your favorite ways of recharching your batteries?"
+    },
+    {
+        "frage": "Whom can you truly count on in your Life?"
+    },
+    {
+        "frage": "When do you feel the most connected to yourself?"
+    },
+    {
+        "frage": "What qualities do you look for in a good friend?"
+    },
+    {
+        "frage": "What do you critize yourself for?"
+    },
+    {
+        "frage": "What does your ideal home look like?"
+    },
+    {
+        "frage": "What good things happend to you this week?"
+    },
+    {
+        "frage": "What are your addictions?"
+    },
+    {
+        "frage": "What are some bad habbits of yours?"
+    },
+    {
+        "frage": "What do you miss from your partner?"
+    },
+    {
+        "frage": "What 'failures' turned out to be a success?"
+    },
+    {
+        "frage": "When are times you become overcontrolling?"
+    },
+    {
+        "frage": "What traits do you have from your parents?"
+    },
+    {
+        "frage": "What are your passions?"
+    },
+    {
+        "frage": "What is the difference between 'living' and 'existing' to you?"
+    },
+    {
+        "frage": "What are the hardest things you have ever done?"
+    },
+    {
+        "frage": "What do you miss about being a child?"
+    },
+    {
+        "frage": "What are 3 highlights in your life?"
+    },
+    {
+        "frage": "What do you spend to much money on?"
+    },
+    {
+        "frage": "What company do you admire? Why?"
+    },
+    {
+        "frage": "What 3 things make you angry?"
+    },
+    {
+        "frage": "Whom do you eny?"
+    },
+    {
+        "frage": "How would you describe your ideal partner in 5 words?"
+    },
+    {
+        "frage": "What 3 things do you love about your home?"
+    },
+    {
+        "frage": "If your life was a movie, what would be its title?"
+    },
+    {
+        "frage": "What lifeadvice would you give people on your deathbed?"
+    },
+    {
+        "frage": "How do you calm yourself when you get upset?"
+    },
+    {
+        "frage": "Would you consider yourself being an 'empath'?"
+    },
+    {
+        "frage": "Do you feel seen, heard loved and appreciated by your partner?"
+    },
+    {
+        "frage": "When was a time you wronged someone and did not apologize for it?"
+    },
+    {
+        "frage": "What hardship from your past, are you grateful for having experience today?"
+    },
+    {
+        "frage": "Whom do you feel loved by?"
+    },
+    {
+        "frage": "What is the best advice you have ever gotten?"
+    },
+    {
+        "frage": "How do you feel about being alone?"
+    },
+    {
+        "frage": "What are three things you love about yourself?"
+    },
+    {
+        "frage": "What new skills did you learn last year?"
+    },
+    {
+        "frage": "What emotions do you have right now in this moment?"
+    },
+    {
+        "frage": "What is your favourite topic to talk about?"
+    },
+    {
+        "frage": "What is the most valuable skill?"
+    },
+    {
+        "frage": "What is the first thing you notice about a person?"
+    },
+    {
+        "frage": "What habit change would improve your life quality?"
+    },
+    {
+        "frage": "What goals do you have for next year?"
+    },
+    {
+        "frage": "What are 3 long-term goals of yours?"
+    },
+    {
+        "frage": "What do you love most about your career?"
+    },
+    {
+        "frage": "What fear has the biggest influence on your life?"
+    },
+    {
+        "frage": "Do you tend to want to 'fix' other people?"
+    },
+    {
+        "frage": "When was the last time you followed your gut feeling?"
+    },
+    {
+        "frage": "When was a time fear of failure stopped you from doing something?"
+    },
+    {
+        "frage": "In what ways can you experience intimacy in relations?"
+    },
+    {
+        "frage": "When was a time you held your ground against peer pressure?"
+    },
+    {
+        "frage": "What is one of your happiest childhood memories?"
+    },
+    {
+        "frage": "Doing what calms you?"
+    },
+    {
+        "frage": "When was the last time you asked for help?"
+    },
+    {
+        "frage": "In what areas of life do you feel successful?"
+    },
+    {
+        "frage": "Do you like where you live?"
+    },
+    {
+        "frage": "Doing what clears your mind?"
+    },
+    {
+        "frage": "What do you imagine yourself doing 10 years from now?"
+    },
+    {
+        "frage": "Whom in your life, do you not spend as mich time with as you would like?"
+    },
+    {
+        "frage": "What small act of kindness will you never forget?"
+    },
+    {
+        "frage": "How are you pursuing your dreams right now?"
+    },
+    {
+        "frage": "What is your favourite smell and sound?"
+    },
+    {
+        "frage": "How do you handle conflicts?"
+    },
+    {
+        "frage": "What qualities do you admire most about your parents?"
+    },
+    {
+        "frage": "What makes life meaningful to you?"
+    },
+    {
+        "frage": "If you could change one thing about your life, what would it be?"
+    },
+    {
+        "frage": "What small gestures from your partner do you love?"
+    },
+    {
+        "frage": "What do you enjoy doing in your free time?"
+    },
+    {
+        "frage": "What small gesture from you does your partner love?"
+    },
+    {
+        "frage": "How do you check in with yourself during the day?"
+    },
+    {
+        "frage": "How do you treat yourself when you make an error?"
+    },
+    {
+        "frage": "Doing what, makes you losse track of time?"
+    },
+    {
+        "frage": "How do you maintain your independence in a relationship?"
+    },
+    {
+        "frage": "What are some gestures that make you feel loved?"
+    },
+    {
+        "frage": "Are you doing the things you want to do in your life?"
+    },
+    {
+        "frage": "What energizes you with other people?"
+    },
+    {
+        "frage": "What drains your energy with other people?"
+    },
+    {
+        "frage": "When do you feel most alive?"
+    },
+    {
+        "frage": "What motivates you? What demotives you?"
+    },
+    {
+        "frage": "what feels hard in your life right now?"
+    },
+    {
+        "frage": "What unhealthy habits do you use to reduce stress?"
+    },
+    {
+        "frage": "When was the last time you did something that took you of of your comfort zone?"
+    },
+    {
+        "frage": "How much time do you spend listening vs talking in relations?"
+    },
+    {
+        "frage": "What decisions are you currently postponing? Why?"
+    },
+    {
+        "frage": "If you died tomorrow how would you be remembered?"
+    },
+    {
+        "frage": "If you had to choose another carreer what would it be?"
+    },
+    {
+        "frage": "In what ways are you contributing to make the world a better place?"
+    },
+    {
+        "frage": "What are your love languages? How do you express your love?"
+    },
+    {
+        "frage": "What do you love and dislike about your work?"
+    },
+    {
+        "frage": "Do you look forword to go to work in the morning?"
+    },
+    {
+        "frage": "What is one thing that can quickly make your day better?"
+    },
+    {
+        "frage": "What makes love last?"
+    },
+    {
+        "frage": "How do you feel that you and your partner grow together?"
+    },
+    {
+        "frage": "How are you a person of integrity?"
+    },
+    {
+        "frage": "Whom in your life is great at giving empathic warmth and enthusiasm?"
+    },
+    {
+        "frage": "Which of your personality traits are you most proud of?"
+    },
+    {
+        "frage": "Do you suffer from imposter Syndrome?"
+    },
+    {
+        "frage": "What measures do you take to have a good work/life balance?"
+    },
+    {
+        "frage": "If you could build a company what would it sell?"
+    },
+    {
+        "frage": "How do you define 'quality time'?"
+    },
+    {
+        "frage": "What chores do you enjoy doing?"
+    },
+    {
+        "frage": "Does your social status level matter to you?"
+    },
+    {
+        "frage": "What are some sustainable choices you priotize?"
+    },
+    {
+        "frage": "What do you create?"
+    },
+    {
+        "frage": "Who has made a big impact in your life?"
+    },
+    {
+        "frage": "How do you take good care of yourself?"
+    },
+    {
+        "frage": "What are some things you are grateful for?"
+    },
+    {
+        "frage": "What are red flags you have regretted ignoring?"
+    },
+    {
+        "frage": "What are you good at?"
+    },
+    {
+        "frage": "What stressors do you currently have in your life?"
+    },
+    {
+        "frage": "What is something that currently frustrates you?"
+    },
+    {
+        "frage": "What is something that currently worries you?"
+    },
+    {
+        "frage": "Doing what with other people gives you energy?"
+    },
+    {
+        "frage": "Doing what is your creative outlet?"
+    },
+    {
+        "frage": "What is a big insecurity of yours?"
+    },
+    {
+        "frage": "Are you sexually fulfilled?"
+    },
+    {
+        "frage": "Who in your life do you feel uncomfortable being with?"
+    },
+    {
+        "frage": "What are great ways to spend time with your family?"
+    },
+    {
+        "frage": "What have loss of loved ones made you relize?"
+    },
+    {
+        "frage": "If you could live anywhere, where would it be?"
+    },
+    {
+        "frage": "What are you most proud of in the last years?"
+    },
+    {
+        "frage": "What career advice would you give to your younger self?"
+    },
+    {
+        "frage": "What relationship advice would you give to your younger self?"
+    },
+    {
+        "frage": "Which relations in your life feel one-sided?"
+    },
+    {
+        "frage": "What is your most prized possession and why?"
+    },
+    {
+        "frage": "What life lesson have you had to learn the hard way?"
+    },
+    {
+        "frage": "What do you regret not doing in the last year?"
+    },
+    {
+        "frage": "Do you have any friends you would consider family?"
+    },
+    {
+        "frage": "What is one of the best decisions you have ever made?"
+    },
+    {
+        "frage": "What bad habits would you like to drop?"
+    },
+    {
+        "frage": "What is your favourite family tradition?"
+    },
+    {
+        "frage": "What is one of the worst decisions you have ever made?"
+    },
+    {
+        "frage": "What measures do you take to have a positive attitude?"
+    },
+    {
+        "frage": "What makes a home feel like a home to you?"
+    }
 ]

@@ -3,11 +3,13 @@ body {
   color: #E8E8E8;
   font-family: 'Courier New', Courier, monospace;
 }
+
 .header {
   font-size: 4em;
   width: 100%;
   text-align: center;
 }
+
 .zufaellige-frage-container {
   height: 10rem;
   width: 20rem;
@@ -18,12 +20,16 @@ body {
   cursor: pointer;
   text-align: center;
 }
+
 .zufaellige-frage-text {
   font-size: 55px;
   position: relative;
   bottom: 10%;
   text-align: center;
+  cursor: pointer;
 }
+
+
 .frage {
   position: relative;
   text-align: center;
@@ -32,22 +38,25 @@ body {
   bottom: 5%;
   left: 5%;
 }
+
 .next-button {
-  height: 5em; 
+  height: 5em;
   width: 10em;
   background-color: #8C5383;
   position: absolute;
   display: flex;
-  justify-content:center;
+  justify-content: center;
   border-radius: 10px;
   cursor: pointer;
   top: 80%;
 }
+
 .next-quest {
   position: relative;
   text-align: center;
   bottom: 20%;
 }
+
 .frage-container {
   width: 75vw;
   height: 40vh;
@@ -57,6 +66,7 @@ body {
   top: 32%;
 
 }
+
 .container {
   display: flex;
   justify-content: center;
