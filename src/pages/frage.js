@@ -1,4 +1,3 @@
-import Header from "../components/header"
 import { useEffect, useState } from 'react'
 import data from './Fragen.json'
 
@@ -36,10 +35,7 @@ function Frage() {
 
     return (
         <>
-            <head>
-                <title>5 Minuten Fragen</title>
-            </head>
-            <Header></Header>
+            <h1 className="header">5 Minuten Fragen</h1>
             <div className="container">
                 <div className="frage-container">
                     <h1 className="frage">{displayText}</h1>

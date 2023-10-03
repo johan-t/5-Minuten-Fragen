@@ -21,6 +21,11 @@ body {
   text-align: center;
 }
 
+.zufaellige-frage-container a {
+  text-decoration: none;
+  color: #E8E8E8;
+}
+
 .zufaellige-frage-text {
   font-size: 55px;
   position: relative;
