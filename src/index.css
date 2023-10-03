@@ -10,69 +10,67 @@ body {
   text-align: center;
 }
 
-.zufaellige-frage-container {
-  height: 10rem;
-  width: 20rem;
-  background-color: #8C5383;
-  border-radius: 10px;
-  position: absolute;
-  top: 40%;
-  cursor: pointer;
-  text-align: center;
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
 }
 
-.zufaellige-frage-container a {
+.container>div {
+  display: flex;
+  width: 20rem;
+  height: 10rem;
+  background-color: #8C5383;
+  margin: 25px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.next-button:hover {
+  filter: brightness(1.1);
+}
+
+.container a {
   text-decoration: none;
   color: #E8E8E8;
 }
 
-.zufaellige-frage-text {
+.container h1 {
   font-size: 55px;
-  position: relative;
-  bottom: 10%;
-  text-align: center;
-  cursor: pointer;
 }
 
-
-.frage {
-  position: relative;
-  text-align: center;
-  width: 68vw;
-  font-size: 2em;
-  bottom: 5%;
-  left: 5%;
+.container>div:last-child {
+  background-color: #55917f;
 }
 
-.next-button {
-  height: 5em;
-  width: 10em;
-  background-color: #8C5383;
-  position: absolute;
+.container .next-button {
   display: flex;
+  height: 5em;
   justify-content: center;
-  border-radius: 10px;
-  cursor: pointer;
+  position: absolute;
   top: 80%;
+  width: 10em;
 }
 
-.next-quest {
-  position: relative;
+.container .next-button h1 {
   text-align: center;
-  bottom: 20%;
+  font-size: 30px;
 }
 
-.frage-container {
-  width: 75vw;
-  height: 40vh;
-  background-color: #5565AF;
+.container .frage-container {
+  background-color: #5565af !important;
   border-radius: 10px;
+  height: 40vh;
   position: absolute;
   top: 32%;
-
+  width: 75vw;
 }
 
-.container {
-  display: flex;
-  justify-content: center;
+.container .frage-container h1 {
+  font-size: 40px;
+  text-align: center;
 }

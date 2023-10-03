@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import { useLocation } from "react-router-dom";
 import data from './Fragen.json'
 
 function Frage() {
@@ -12,16 +13,23 @@ function Frage() {
         return item
     }
 
+    const location = useLocation();
+    const type = location.hash.substring(1); // this will remove the "#" at the start of the hash
+
+    const buttonStyle = type === "deepTalk" ? { backgroundColor: "#8c5383" } : {backgroundColor: "#55917f" };
+
     useEffect(() => {
-        const fullText = fragen.frage;
-        let currentLength = 0;
-        const interval = setInterval(() => {
-            currentLength++;
-            setDisplayText(fullText.substring(0, currentLength));
-            if (currentLength === fullText.length) {
-                clearInterval(interval);
-            }
-        }, 50);
+        if (fragen.frage) { // Ensure fragen.frage exists before using it
+            const fullText = fragen.frage;
+            let currentLength = 0;
+            const interval = setInterval(() => {
+                currentLength++;
+                setDisplayText(fullText.substring(0, currentLength));
+                if (currentLength === fullText.length) {
+                    clearInterval(interval);
+                }
+            }, 50);
+        }
     }, [fragen]);
 
     function handleNextQuestionClick() {
@@ -39,10 +47,10 @@ function Frage() {
             <div className="container">
                 <div className="frage-container">
                     <h1 className="frage">{displayText}</h1>
-                </div>
+            </div>
             </div>
             <div className="container" onClick={handleNextQuestionClick}>
-                <div className="next-button">
+                <div className="next-button" style={buttonStyle}>
                     <h1 className="next-quest">Nächste Frage</h1>
                 </div>
             </div>
